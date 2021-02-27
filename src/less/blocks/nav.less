@@ -1,14 +1,14 @@
-.page{
-    &__text {
-        font-family: "@{Firs}-ExtraBold";
+.nav {
+    .row-flex();
+    &__link{
         
-    }
-
-    &__link {
+        .size(1.5);
+        .col();
         font-family: "@{Firs}-ExtraBold";
         text-decoration: none;
         color: @color_black;
         font-size: 20px;
+        text-transform: uppercase;
         a {
             text-decoration: none;
         }
@@ -17,11 +17,5 @@
             transition: 0.2 ease-in;
 
         }
-        svg {
-            //background-color: black;
-        }
     }
-
-
 }
-

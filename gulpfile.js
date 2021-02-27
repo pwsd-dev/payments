@@ -77,7 +77,7 @@ function images() {
 		// 	progressive: true,
 		// 	interlaced: true
 		// }))
-		.pipe(webp())
+		// .pipe(webp())
 		.pipe(gulp.dest('./build/assets/img/'))
 	// .pipe(notify({ message: 'Images task complete' }));
 }

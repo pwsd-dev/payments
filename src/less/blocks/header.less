@@ -1,25 +1,31 @@
 .header{
     &-block {
         .row-flex();
-        &-nav {
-            
-            &__logo {
-                .col();
-            }
-            .page__link {
-                .size(3);
+        .nav {
+            .col();
+            .size(10);
+            //.page__link {
+                //.size(2);
                 //.shift-left(2);
-                .col();
-                text-transform: uppercase;     
+                //.col();
+                //text-transform: uppercase;     
                       
                 
+            //}  
+        }
+        &-nav {
+            .row-flex();
+            &__logo {
+                .col();
+                .size(2);
+                .page__img{
+                    //.size(2);
+                }
             }
-
+           
             .padding_left-30{
-                padding-left: 70px;
+                //padding-left: 70px;
             }     
-
-            
         }
         
     }
