@@ -528,6 +528,7 @@ input:focus {
 
 .banner-block-img {
   position: relative;
+  height: 260.41667vw;
 }
 
 .banner-block-img .page__img {
