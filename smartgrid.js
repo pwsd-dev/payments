@@ -1,6 +1,6 @@
 module.exports = {
 	columns: 12,
-	offset: "30px",
+	offset: "60px",
 	//mobileFirst: true,
 	container: {
         maxWidth: "1830px",
@@ -9,7 +9,7 @@ module.exports = {
 	breakPoints: {
         desktop: {
             width: "1921px",
-            fields: "15px"
+            fields: "30px"
         },
         desktop: {
             width: "1550px",

@@ -1,9 +1,27 @@
 .header{
-    .parent{
+    &-block {
         .row-flex();
-        .child{
-            .col();
-            .size(1);
+        &-nav {
+            
+            &__logo {
+                .col();
+            }
+            .page__link {
+                .size(3);
+                //.shift-left(2);
+                .col();
+                text-transform: uppercase;     
+                      
+                
+            }
+
+            .padding_left-30{
+                padding-left: 70px;
+            }     
+
+            
         }
+        
     }
+        
 }
