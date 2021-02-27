@@ -3,10 +3,18 @@ module.exports = {
 	offset: "30px",
 	//mobileFirst: true,
 	container: {
-        maxWidth: "1630px",
+        maxWidth: "1830px",
         fields: "15px"
     },
 	breakPoints: {
+        desktop: {
+            width: "1921px",
+            fields: "15px"
+        },
+        desktop: {
+            width: "1550px",
+            fields: "15px"
+        },
         laptopMid: {
             width: "1550px",
             fields: "15px"
